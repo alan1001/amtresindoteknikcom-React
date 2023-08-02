@@ -14,7 +14,7 @@ const Home = (props) => {
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
           <div className="home-logo">
-            <img alt="image" src="/logo-top-200h.jpg" className="home-image" />
+            <img alt="image" src="/logo-top-1500h.jpg" className="home-image" />
           </div>
           <div className="home-links-container">
             <a href="#features" className="home-link Anchor">
@@ -31,7 +31,12 @@ const Home = (props) => {
             </a>
           </div>
           <div className="home-cta-container">
-            <button className="home-cta-btn Anchor button">Whatsapp</button>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+              className="home-cta-btn Anchor button"
+            >
+              Whatsapp
+            </a>
             <div data-role="BurgerMenu" className="home-burger-menu">
               <svg viewBox="0 0 1024 1024" className="home-icon">
                 <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
@@ -40,7 +45,11 @@ const Home = (props) => {
           </div>
           <div data-role="MobileMenu" className="home-mobile-menu">
             <div className="home-top">
-              <img alt="image" src="/default-img.svg" className="home-image1" />
+              <img
+                alt="image"
+                src="/logo-top-1500h.jpg"
+                className="home-image01"
+              />
               <div data-role="CloseMobileMenu" className="home-container1">
                 <svg viewBox="0 0 1024 1024" className="home-icon02">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -49,13 +58,13 @@ const Home = (props) => {
             </div>
             <div className="home-mid">
               <div className="home-links-container1">
-                <a href="#features" className="home-link04 Anchor">
+                <a href="#keunggulan" className="home-link04">
                   features
                 </a>
-                <a href="#services" className="home-link05 Anchor">
+                <a href="#layanan" className="home-link05">
                   services
                 </a>
-                <a href="#about-us" className="home-link06 Anchor">
+                <a href="#tentang" className="home-link06">
                   About Us
                 </a>
                 <a href="#contact" className="home-link07 Anchor">
@@ -104,21 +113,76 @@ const Home = (props) => {
             </a>
             <span> Solusi Perbaikan Profesional!</span>
           </h1>
-          <span className="home-text01 Section-Text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi.
-            Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-            Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-            massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos.
+          <span className="home-text01">
+            Ahli perbaikan water heater, pompa air, dan kompor tanam siap
+            menghadirkan kenyamanan kembali ke dapur dan kamar mandi Anda.
+            Layanan kilat, senyuman ramah, dan biaya terjangkau. Kami menangani
+            urusan panas dan air, sehingga Anda bisa tenang dan nyaman dalam
+            momen-momen berharga di rumah. Tinggal hubungi kami, dan masalah
+            Anda selesai!&quot;
           </span>
-          <button className="home-cta-btn2 Anchor button">Whatsapp</button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+            className="home-cta-btn2 Anchor button"
+          >
+            Whatsapp
+          </a>
         </div>
-        <img alt="image" src="/technician-1500w.jpg" className="home-image2" />
+        <img alt="image" src="/technician-1500w.jpg" className="home-image02" />
+        <div className="home-container2">
+          <img
+            alt="image"
+            src="/brand/modena-200h.png"
+            className="home-image03"
+          />
+          <img
+            alt="image"
+            src="/brand/wasser-200h.webp"
+            className="home-image04"
+          />
+        </div>
+        <div className="home-container3">
+          <img
+            alt="image"
+            src="/brand/paloma-200h.webp"
+            className="home-image05"
+          />
+          <img
+            alt="image"
+            src="/brand/sanyo-200h.webp"
+            className="home-image06"
+          />
+          <img
+            alt="image"
+            src="/brand/shimizu-200h.webp"
+            className="home-image07"
+          />
+        </div>
+        <div className="home-container4">
+          <img
+            alt="image"
+            src="/brand/ariston-200h.webp"
+            className="home-image08"
+          />
+          <img
+            alt="image"
+            src="/brand/electrolux-200h.png"
+            className="home-image09"
+          />
+          <img
+            alt="image"
+            src="/brand/grundfos-200h.webp"
+            className="home-image10"
+          />
+          <img
+            alt="image"
+            src="/brand/hitachi-200h.webp"
+            className="home-image11"
+          />
+        </div>
       </div>
       <div className="home-section-separator"></div>
-      <div id="features" className="home-features">
+      <div id="keunggulan" className="home-keunggulan">
         <div className="home-heading-container">
           <h2 className="home-text02">
             <span className="Section-Heading">
@@ -138,9 +202,9 @@ const Home = (props) => {
               Amtresindo
             </a>
           </h2>
-          <span className="home-text04 Section-Text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam.
+          <span className="home-text04">
+            Kenyamanan terjamin dengan pelayanan cepat, ahli, dan ramah untuk
+            perbaikan water heater, pompa air, dan kompor tanam.
           </span>
         </div>
         <div className="home-cards-container">
@@ -150,110 +214,136 @@ const Home = (props) => {
               <path d="M128 544l544-544h-80c-26.4 0-63.274 15.274-81.942 33.942l-476.116 476.116c-18.668 18.668-18.668 49.214 0 67.882l412.118 412.118c18.668 18.668 49.214 18.668 67.882 0l30.058-30.058-416-416z"></path>
             </svg>
             <span className="home-heading1 Card-Heading">Harga Kompetitif</span>
-            <span className="home-text05 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-              nisi. Nulla quis sem at nibh elementum imperdiet.
+            <span className="home-text05">
+              Harga kompetitif tanpa mengorbankan kualitas! Kami menawarkan
+              tarif terjangkau untuk perbaikan water heater, pompa air, dan
+              kompor tanam, memberikan solusi terbaik tanpa beban berlebih bagi
+              kantong Anda.
             </span>
           </div>
           <div className="home-feature-card1">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-              className="home-image3"
-            />
+            <svg viewBox="0 0 1024 1024" className="home-icon13">
+              <path d="M960 608l-288 288-96-96-64 64 160 160 352-352z"></path>
+              <path d="M448 768h320v-115.128c-67.22-39.2-156.308-66.11-256-74.26v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h448v-64z"></path>
+            </svg>
             <span className="home-heading2 Card-Heading">
               Teknisi Profesional
             </span>
-            <span className="home-text06 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-              nisi. Nulla quis sem at nibh elementum imperdiet.
+            <span className="home-text06">
+              Teknisi profesional, layanan terpercaya. Perbaikan water heater,
+              pompa air, dan kompor tanam dengan ahli handal.
             </span>
           </div>
           <div className="home-feature-card2">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-              className="home-image4"
-            />
+            <svg viewBox="0 0 1024 1024" className="home-icon16">
+              <path d="M960 0l-448 128-448-128c0 0-4.5 51.698 0 128l448 140.090 448-140.090c4.498-76.302 0-128 0-128zM72.19 195.106c23.986 250.696 113.49 672.234 439.81 828.894 326.32-156.66 415.824-578.198 439.81-828.894l-439.81 165.358-439.81-165.358z"></path>
+            </svg>
             <span className="home-heading3 Card-Heading">Garansi Terjamin</span>
-            <span className="home-text07 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-              nisi. Nulla quis sem at nibh elementum imperdiet.
+            <span className="home-text07">
+              Garansi terjamin! Kami menawarkan jaminan kualitas untuk setiap
+              perbaikan water heater, pompa air, dan kompor tanam yang kami
+              lakukan. Keamanan dan kepuasan pelanggan adalah prioritas utama
+              kami, sehingga Anda bisa tenang dengan layanan yang kami berikan.
             </span>
           </div>
         </div>
       </div>
-      <div id="services" className="home-services">
+      <div id="layanan" className="home-layanan">
         <div className="home-service-card">
           <div className="home-card-content">
             <h3 className="home-text08 BigCard-Heading">Water Heater</h3>
             <img
-              src="/water-heater-1-500h.jpg"
               alt="image"
+              src="/water-heater-1-500h.jpg"
               loading="lazy"
-              className="home-image5"
+              className="home-image12"
             />
-            <span className="home-text09 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+            <span className="home-text09">
+              Amtresindoteknik.com hadir untuk mengatasi segala kerusakan pada
+              water heater Anda! Layanan kami mencakup kuras tabung water heater
+              listrik atau solar panel, pemasangan water heater, penggantian
+              termostat water heater listrik, serta penggantian selenoid &amp;
+              membran untuk water heater gas. Selain itu, kami juga menangani
+              penggantian elemen pemanas water heater, perbaikan kebocoran, dan
+              pemasangan ELCB untuk water heater listrik. Percayakan perbaikan
+              water heater Anda pada kami dan nikmati kembali kenyamanan di
+              rumah Anda!
             </span>
-            <button className="home-button button Anchor">READ MORE</button>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+              className="home-link10 button Anchor"
+            >
+              Whatsapp
+            </a>
           </div>
         </div>
         <div className="home-service-card1">
           <div className="home-card-content1">
             <h3 className="home-text10 BigCard-Heading">Pompa Air</h3>
             <img
-              src="/pompa-air-1-500h.jpg"
               alt="image"
+              src="/pompa-air-1-500h.jpg"
               loading="lazy"
-              className="home-image6"
+              className="home-image13"
             />
-            <span className="home-text11 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+            <span className="home-text11">
+              Amtresindoteknik.com siap membantu Anda dengan segala permasalahan
+              pompa air! Layanan kami meliputi instalasi pompa air baru, bongkar
+              pasang pompa air, dan perbaikan instalasi hisap jika air tidak
+              keluar. Selain itu, kami juga mengatasi masalah bunyi kasar pada
+              pompa air dengan mengganti bearing motor, dan memperbaiki dinamo
+              pompa air dengan gulung ulang. Jangan khawatir tentang kebocoran,
+              karena kami juga melakukan pergantian per seal atau pir seal pompa
+              air. Percayakan servis pompa air Anda pada kami, dan nikmati
+              kembali aliran air yang lancar dan tanpa khawatir!
             </span>
-            <button className="home-button1 button Anchor">READ MORE</button>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+              className="home-link11 button"
+            >
+              <span>
+                <span className="Anchor">Whatsapp</span>
+                <br></br>
+              </span>
+            </a>
           </div>
         </div>
         <div className="home-service-card2">
           <div className="home-card-content2">
-            <h3 className="home-text12 BigCard-Heading">Kompor Tanam</h3>
+            <h3 className="home-text15 BigCard-Heading">Kompor Tanam</h3>
             <img
-              src="/kompor-tanam-1-500h.jpg"
               alt="image"
+              src="/kompor-tanam-1-500h.jpg"
               loading="lazy"
-              className="home-image7"
+              className="home-image14"
             />
-            <span className="home-text13 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+            <span className="home-text16">
+              Amtresindoteknik.com adalah ahli servis kompor tanam dengan
+              kerusakan! Layanan kami meliputi cuci jalur kompor tanam, oven,
+              dan kompor standing untuk menjaga kebersihan dan kinerja optimal.
+              Selain itu, kami mengganti modul pemantik kompor dan thermostat
+              oven untuk memastikan kompor berfungsi dengan baik. Jangan
+              khawatir jika ada masalah pada burner kompor tanam atau kompor
+              standing, karena kami juga menyediakan layanan penggantian burner.
+              Jika kompor mengalami masalah ngeblug atau pemantik mati, tim kami
+              siap melakukan servis untuk mengatasi permasalahan tersebut.
+              Percayakan kompor tanam Anda pada kami, dan nikmati kembali
+              kesenangan memasak tanpa khawatir!
             </span>
-            <button className="home-button2 Anchor button">READ MORE</button>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link12 Anchor button"
+            >
+              Whatsapp
+            </a>
           </div>
         </div>
       </div>
-      <div id="about-us" className="home-about-us">
+      <div id="tentang" className="home-tentang">
         <div className="home-heading-container1">
-          <h2 className="home-text14">
+          <h2 className="home-text17">
             <span className="Section-Heading">
               Tentang
               <span
@@ -262,193 +352,249 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text16">Amtresindo</span>
+            <span className="home-text19">Amtresindo</span>
           </h2>
           <span className="home-secondary-text Section-Text">
             {' '}
-            Lorem upsum dolor sit amet, consectetur adipiscing elit sed do
-            eiusmod.
+            Percayakan Alat Anda Kepada Kami
           </span>
           <button className="home-cta-btn3 button Anchor">Whatapps</button>
         </div>
         <div className="home-text-container">
-          <span className="home-text17 Section-Text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </span>
-          <span className="home-text18 Section-Text">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-            pariatur?
+          <span className="home-text20">
+            <span className="Section-Text home-text21">Amtresindo Teknik</span>
+            <span className="Section-Text">
+              {' '}
+              adalah perusahaan jasa perbaikan yang berdedikasi untuk memberikan
+              solusi terbaik bagi Anda dalam hal perbaikan water heater, pompa
+              air, dan kompor tanam. Dengan tim teknisi profesional dan
+              berpengalaman, kami berkomitmen untuk menghadirkan kenyamanan dan
+              kepuasan pelanggan.
+            </span>
+            <br className="home-text23"></br>
+            <br className="Section-Text"></br>
+            <span className="Section-Text">
+              Di Amtresindo Teknik, kepuasan Anda adalah prioritas utama kami.
+              Kami percaya bahwa rumah adalah tempat istimewa di mana
+              momen-momen berharga tercipta, dan kami ingin memastikan bahwa
+              Anda bisa menikmati momen-momen tersebut tanpa khawatir dengan
+              perangkat penting seperti water heater, pompa air, dan kompor
+              tanam.
+            </span>
+            <br className="home-text26"></br>
+            <br className="Section-Text"></br>
+            <span className="Section-Text">
+              Kami menawarkan layanan yang berkualitas dengan harga kompetitif,
+              sehingga Anda dapat merasa tenang dan puas dengan hasil kerja
+              kami. Teknisi kami adalah para ahli dalam bidangnya, siap
+              memberikan pelayanan yang handal dan profesional untuk memperbaiki
+              segala masalah yang Anda hadapi.
+            </span>
+            <br className="home-text29"></br>
+            <br className="Section-Text"></br>
+            <span className="Section-Text">
+              Selain menangani perbaikan, kami juga menyediakan layanan
+              instalasi dan penggantian komponen sehingga Anda bisa mendapatkan
+              perangkat dengan performa terbaik. Keunggulan layanan kami
+              didukung oleh garansi terjamin, memberikan Anda kepercayaan penuh
+              pada pilihan kami.
+            </span>
+            <br className="home-text32"></br>
+            <br className="Section-Text"></br>
+            <span className="Section-Text">
+              Kami mengerti bahwa setiap masalah perangkat dapat menjadi
+              pengganggu, itulah mengapa kami selalu siap melayani dengan cepat
+              dan efisien. Layanan kami mencakup kuras tabung water heater,
+              instalasi pompa air baru, perbaikan instalasi hisap pompa air,
+              ganti modul pemantik kompor, dan masih banyak lagi.
+            </span>
+            <br className="Section-Text"></br>
+            <br className="Section-Text"></br>
+            <span className="Section-Text">
+              Kami bangga telah melayani banyak pelanggan dengan penuh
+              kepercayaan selama bertahun-tahun, dan kami berkomitmen untuk
+              terus memberikan pelayanan terbaik untuk Anda. Jangan ragu untuk
+              menghubungi kami jika Anda membutuhkan bantuan dalam mengatasi
+              masalah water heater, pompa air, atau kompor tanam Anda.
+            </span>
+            <br className="home-text38"></br>
+            <br className="Section-Text"></br>
+            <span className="Section-Text">
+              Terima kasih telah memilih
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="Section-Text">Amtresindo Teknik</span>
+            <span className="Section-Text">
+              {' '}
+              sebagai mitra perbaikan yang dapat diandalkan. Kami berharap dapat
+              memberikan layanan yang memuaskan dan menjaga kenyamanan rumah
+              Anda dengan sepenuh hati.
+            </span>
           </span>
         </div>
-        <button className="home-cta-btn4 Anchor button">Whatsapp</button>
+        <a
+          href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+          className="home-cta-btn4 Anchor button"
+        >
+          Whatsapp
+        </a>
       </div>
       <div className="home-section-separator1"></div>
       <div className="home-testimonials">
-        <h2 className="home-text19 Section-Heading">Testimoni Pelanggan</h2>
+        <h2 className="home-text43 Section-Heading">Testimoni Pelanggan</h2>
         <div className="home-cards-container1">
           <div className="home-testimonial-card">
             <div className="home-card-heading">
               <div className="home-name-and-position">
-                <span className="Card-Heading">Will Evans</span>
-                <span className="home-position Card-Text">Position</span>
+                <span className="Card-Heading">Siti</span>
+                <span className="home-position Card-Text">Surabaya</span>
               </div>
               <div className="home-stars-container">
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon13"
+                  className="home-icon18"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon15"
+                  className="home-icon20"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon17"
+                  className="home-icon22"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon19"
+                  className="home-icon24"
                 >
-                  <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon21"
+                  className="home-icon26"
                 >
-                  <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
               </div>
             </div>
-            <span className="home-text20 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-              nisi. Nulla quis sem at nibh elementum imperdiet.
+            <span className="home-text44">
+              Water heater di rumah saya bermasalah, airnya tidak lagi panas.
+              Saya mencoba memanggil Amtresindo untuk membantu, dan saya sangat
+              terkesan dengan pelayanannya. Teknisi yang datang sangat ramah dan
+              cepat dalam menemukan masalahnya. Mereka dengan cekatan
+              memperbaikinya, dan sekarang air panas di rumah saya kembali
+              berfungsi dengan sempurna. Terima kasih, Amtresindo, atas
+              pelayanannya yang sangat membantu!
             </span>
           </div>
           <div className="home-testimonial-card1">
             <div className="home-card-heading1">
               <div className="home-name-and-position1">
-                <span className="Card-Heading">Marie Alba</span>
-                <span className="home-position1 Card-Text">Position</span>
+                <span className="Card-Heading">Michael</span>
+                <span className="home-position1 Card-Text">Surabaya</span>
               </div>
               <div className="home-stars-container1">
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon23"
+                  className="home-icon28"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon25"
+                  className="home-icon30"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon27"
+                  className="home-icon32"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon29"
+                  className="home-icon34"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon31"
+                  className="home-icon36"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
               </div>
             </div>
-            <span className="home-text21 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-              nisi. Nulla quis sem at nibh elementum imperdiet.
+            <span className="home-text45">
+              Amtresindo sangat cepat dan tanggap dalam menangani masalah kompor
+              tanam kami. Layanan yang sangat baik dan kompor kembali berfungsi
+              dengan baik. Terima kasih!
             </span>
           </div>
           <div className="home-testimonial-card2">
             <div className="home-card-heading2">
               <div className="home-name-and-position2">
-                <span className="Card-Heading">Taylor Sam</span>
-                <span className="home-position2 Card-Text">Position</span>
+                <span className="Card-Heading">Rina</span>
+                <span className="home-position2 Card-Text">Sidoarjo</span>
               </div>
               <div className="home-stars-container2">
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon33"
+                  className="home-icon38"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon35"
+                  className="home-icon40"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon37"
+                  className="home-icon42"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon39"
+                  className="home-icon44"
                 >
                   <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon41"
+                  className="home-icon46"
                 >
                   <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
                 </svg>
               </div>
             </div>
-            <span className="home-text22 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-              nisi. Nulla quis sem at nibh elementum imperdiet.
+            <span className="home-text46">
+              Pompa air bermasalah, Amtresindo cepat dan sigap dalam mengatasi.
+              Terima kasih, hasilnya memuaskan!
             </span>
           </div>
         </div>
       </div>
-      <div id="contact" className="home-contact">
+      <div id="kontak" className="home-kontak">
         <div className="home-content-container">
-          <h2 className="home-text23 Section-Heading">Area Amtresindo</h2>
+          <h2 className="home-text47 Section-Heading">Area Amtresindo</h2>
           <div className="home-locations-container">
             <div className="home-location-1">
               <span className="home-heading4">Surabaya &amp; Sidoarjo</span>
               <div className="home-adress">
-                <svg viewBox="0 0 1024 1024" className="home-icon43">
+                <svg viewBox="0 0 1024 1024" className="home-icon48">
                   <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                 </svg>
                 <span className="Section-Text">
@@ -458,20 +604,25 @@ const Home = (props) => {
               <div className="home-email">
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
-                  className="home-icon45"
+                  className="home-icon50"
                 >
                   <path d="M562.857 556.571c9.714 0 102.857 48.571 106.857 55.429 1.143 2.857 1.143 6.286 1.143 8.571 0 14.286-4.571 30.286-9.714 43.429-13.143 32-66.286 52.571-98.857 52.571-27.429 0-84-24-108.571-35.429-81.714-37.143-132.571-100.571-181.714-173.143-21.714-32-41.143-71.429-40.571-110.857v-4.571c1.143-37.714 14.857-64.571 42.286-90.286 8.571-8 17.714-12.571 29.714-12.571 6.857 0 13.714 1.714 21.143 1.714 15.429 0 18.286 4.571 24 19.429 4 9.714 33.143 87.429 33.143 93.143 0 21.714-39.429 46.286-39.429 59.429 0 2.857 1.143 5.714 2.857 8.571 12.571 26.857 36.571 57.714 58.286 78.286 26.286 25.143 54.286 41.714 86.286 57.714 4 2.286 8 4 12.571 4 17.143 0 45.714-55.429 60.571-55.429zM446.857 859.429c197.714 0 358.857-161.143 358.857-358.857s-161.143-358.857-358.857-358.857-358.857 161.143-358.857 358.857c0 75.429 24 149.143 68.571 210.286l-45.143 133.143 138.286-44c58.286 38.286 127.429 59.429 197.143 59.429zM446.857 69.714c237.714 0 430.857 193.143 430.857 430.857s-193.143 430.857-430.857 430.857c-72.571 0-144.571-18.286-208.571-53.714l-238.286 76.571 77.714-231.429c-40.571-66.857-61.714-144-61.714-222.286 0-237.714 193.143-430.857 430.857-430.857z"></path>
                 </svg>
-                <span>082131659571</span>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+                  className="home-link13"
+                >
+                  082131659571
+                </a>
               </div>
               <div className="home-phone">
                 <svg
                   viewBox="0 0 804.5714285714286 1024"
-                  className="home-icon47"
+                  className="home-icon52"
                 >
                   <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
                 </svg>
-                <a href="tel:+6282131659571" className="home-link10">
+                <a href="tel:+6282131659571" className="home-link14">
                   082131659571
                 </a>
               </div>
@@ -482,13 +633,13 @@ const Home = (props) => {
               href="https://amtresindoteknik.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link11"
+              className="home-link15"
             >
               amtresindoteknik.com
             </a>
           </div>
         </div>
-        <img alt="image" src="/logo-1-1500w.jpg" className="home-image8" />
+        <img alt="image" src="/logo-1-1500w.jpg" className="home-image15" />
       </div>
     </div>
   )
