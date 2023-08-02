@@ -9,7 +9,15 @@ const Home = (props) => {
     <div className="home-container">
       <Helmet>
         <title>amtresindoteknik.com</title>
+        <meta
+          name="description"
+          content="amtresindoteknik.com ahlinya perbaikan water heater, pompa air, dan kompor tanam hadir dengan Layanan kilat, senyuman ramah, dan biaya terjangkau. "
+        />
         <meta property="og:title" content="amtresindoteknik.com" />
+        <meta
+          property="og:description"
+          content="amtresindoteknik.com ahlinya perbaikan water heater, pompa air, dan kompor tanam hadir dengan Layanan kilat, senyuman ramah, dan biaya terjangkau. "
+        />
       </Helmet>
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
