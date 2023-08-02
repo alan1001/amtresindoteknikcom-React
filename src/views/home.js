@@ -46,7 +46,7 @@ const Home = (props) => {
               WA
             </a>
             <a
-              href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+              href="tel:+6282131659571"
               className="home-cta-btn1 button Anchor"
             >
               Telfon
