@@ -1,12 +1,12 @@
-.home-container {
+.layanan-water-heater-container {
   width: 100%;
-  height: auto;
   display: flex;
+  overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
 }
-.home-navbar-container {
+.layanan-water-heater-navbar-container {
   top: 0;
   width: 100%;
   display: flex;
@@ -18,7 +18,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.home-navbar {
+.layanan-water-heater-navbar {
   width: 100%;
   display: flex;
   position: relative;
@@ -31,43 +31,43 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   justify-content: space-between;
 }
-.home-logo {
+.layanan-water-heater-logo {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.home-image {
+.layanan-water-heater-image {
   width: 150px;
   object-fit: cover;
 }
-.home-links-container {
+.layanan-water-heater-links-container {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
 }
-.home-link {
+.layanan-water-heater-link {
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.home-link01 {
+.layanan-water-heater-link01 {
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.home-link02 {
+.layanan-water-heater-link02 {
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.home-link03 {
+.layanan-water-heater-link03 {
   text-decoration: none;
 }
-.home-cta-container {
+.layanan-water-heater-cta-container {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.home-cta-btn {
+.layanan-water-heater-cta-btn {
   color: var(--dl-color-gray-white);
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fiveunits);
@@ -80,17 +80,17 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.home-burger-menu {
+.layanan-water-heater-burger-menu {
   display: none;
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
 }
-.home-icon {
+.layanan-water-heater-icon {
   width: 36px;
   height: 36px;
 }
-.home-mobile-menu {
+.layanan-water-heater-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -102,7 +102,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
-.home-top {
+.layanan-water-heater-top {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -111,49 +111,49 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-image1 {
+.layanan-water-heater-image1 {
   width: 50px;
   object-fit: cover;
 }
-.home-container1 {
+.layanan-water-heater-container1 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-icon02 {
+.layanan-water-heater-icon02 {
   width: 24px;
   height: 24px;
 }
-.home-mid {
+.layanan-water-heater-mid {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-links-container1 {
+.layanan-water-heater-links-container1 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.home-link04 {
+.layanan-water-heater-link04 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-link05 {
+.layanan-water-heater-link05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-link06 {
+.layanan-water-heater-link06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-link07 {
+.layanan-water-heater-link07 {
   text-decoration: none;
 }
-.home-cta-btn1 {
+.layanan-water-heater-cta-btn1 {
   color: var(--dl-color-gray-white);
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fiveunits);
@@ -166,7 +166,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.home-bot {
+.layanan-water-heater-bot {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
@@ -174,27 +174,27 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-social-links-container {
+.layanan-water-heater-social-links-container {
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   flex-direction: row;
 }
-.home-icon04 {
+.layanan-water-heater-icon04 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.home-icon06 {
+.layanan-water-heater-icon06 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.home-icon08 {
+.layanan-water-heater-icon08 {
   width: 24px;
   height: 24px;
 }
-.home-hero {
+.layanan-water-heater-hero {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -208,24 +208,24 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: space-between;
 }
-.home-hero-text-container {
+.layanan-water-heater-hero-text-container {
   width: 35%;
   display: flex;
   align-items: flex-start;
   margin-left: 50px;
   flex-direction: column;
 }
-.home-heading {
+.layanan-water-heater-heading {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-link08 {
+.layanan-water-heater-link08 {
   color: var(--dl-color-primary-100);
 }
-.home-text01 {
+.layanan-water-heater-text01 {
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-cta-btn2 {
+.layanan-water-heater-cta-btn2 {
   color: var(--dl-color-gray-white);
   align-self: stretch;
   text-align: center;
@@ -235,11 +235,11 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-primary-100);
 }
-.home-image2 {
+.layanan-water-heater-image2 {
   width: 50%;
   object-fit: contain;
 }
-.home-section-separator {
+.layanan-water-heater-section-separator {
   width: 100%;
   height: 1px;
   display: flex;
@@ -247,7 +247,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-700);
 }
-.home-features {
+.layanan-water-heater-features {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -258,14 +258,14 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-tenunits);
 }
-.home-heading-container {
+.layanan-water-heater-heading-container {
   width: 45%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text02 {
+.layanan-water-heater-text02 {
   font-size: 48px;
   text-align: center;
   font-family: Roboto;
@@ -275,14 +275,14 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-link09 {
+.layanan-water-heater-link09 {
   color: var(--dl-color-primary-100);
 }
-.home-text04 {
+.layanan-water-heater-text04 {
   color: var(--dl-color-gray-500);
   text-align: center;
 }
-.home-cards-container {
+.layanan-water-heater-cards-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -290,7 +290,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-feature-card {
+.layanan-water-heater-feature-card {
   width: 30%;
   display: flex;
   position: relative;
@@ -302,18 +302,19 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-icon10 {
-  width: 24px;
-  height: 24px;
+.layanan-water-heater-image3 {
+  width: 100px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
-.home-heading1 {
+.layanan-water-heater-heading1 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text05 {
+.layanan-water-heater-text05 {
   color: var(--dl-color-gray-500);
   text-align: center;
 }
-.home-feature-card1 {
+.layanan-water-heater-feature-card1 {
   width: 30%;
   display: flex;
   align-items: center;
@@ -323,19 +324,19 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-image3 {
+.layanan-water-heater-image4 {
   width: 100px;
   object-fit: cover;
   margin-bottom: 20px;
 }
-.home-heading2 {
+.layanan-water-heater-heading2 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text06 {
+.layanan-water-heater-text06 {
   color: var(--dl-color-gray-500);
   text-align: center;
 }
-.home-feature-card2 {
+.layanan-water-heater-feature-card2 {
   width: 30%;
   display: flex;
   align-items: center;
@@ -345,19 +346,19 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-image4 {
+.layanan-water-heater-image5 {
   width: 100px;
   object-fit: cover;
   margin-bottom: 20px;
 }
-.home-heading3 {
+.layanan-water-heater-heading3 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text07 {
+.layanan-water-heater-text07 {
   color: var(--dl-color-gray-500);
   text-align: center;
 }
-.home-services {
+.layanan-water-heater-services {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -366,7 +367,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-service-card {
+.layanan-water-heater-service-card {
   width: 49%;
   display: flex;
   min-height: 500px;
@@ -376,7 +377,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-900);
 }
-.home-card-content {
+.layanan-water-heater-card-content {
   margin: var(--dl-space-space-fiveunits);
   display: flex;
   padding: var(--dl-space-space-fiveunits);
@@ -385,20 +386,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text08 {
+.layanan-water-heater-text08 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-image5 {
-  width: 200px;
-  object-fit: cover;
-}
-.home-text09 {
+.layanan-water-heater-text09 {
   color: var(--dl-color-primary-700);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-button {
+.layanan-water-heater-button {
   color: var(--dl-color-gray-white);
   width: 80%;
   align-self: center;
@@ -409,7 +406,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-primary-100);
 }
-.home-service-card1 {
+.layanan-water-heater-service-card1 {
   width: 49%;
   display: flex;
   min-height: 500px;
@@ -419,7 +416,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-900);
 }
-.home-card-content1 {
+.layanan-water-heater-card-content1 {
   margin: var(--dl-space-space-fiveunits);
   display: flex;
   padding: var(--dl-space-space-fiveunits);
@@ -428,20 +425,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text10 {
+.layanan-water-heater-text10 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-image6 {
-  width: 200px;
-  object-fit: cover;
-}
-.home-text11 {
+.layanan-water-heater-text11 {
   color: var(--dl-color-primary-700);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-button1 {
+.layanan-water-heater-button1 {
   color: var(--dl-color-gray-white);
   width: 80%;
   align-self: center;
@@ -452,7 +445,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-primary-100);
 }
-.home-service-card2 {
+.layanan-water-heater-service-card2 {
   width: 49%;
   display: flex;
   min-height: 500px;
@@ -461,7 +454,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-900);
 }
-.home-card-content2 {
+.layanan-water-heater-card-content2 {
   margin: var(--dl-space-space-fiveunits);
   display: flex;
   padding: var(--dl-space-space-fiveunits);
@@ -470,20 +463,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text12 {
+.layanan-water-heater-text12 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-image7 {
-  width: 200px;
-  object-fit: cover;
-}
-.home-text13 {
+.layanan-water-heater-text13 {
   color: var(--dl-color-primary-700);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-button2 {
+.layanan-water-heater-button2 {
   color: var(--dl-color-gray-white);
   width: 80%;
   align-self: center;
@@ -494,7 +483,45 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-primary-100);
 }
-.home-about-us {
+.layanan-water-heater-service-card3 {
+  width: 49%;
+  display: flex;
+  min-height: 500px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-900);
+}
+.layanan-water-heater-card-content3 {
+  margin: var(--dl-space-space-fiveunits);
+  display: flex;
+  padding: var(--dl-space-space-fiveunits);
+  max-width: 500px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.layanan-water-heater-text14 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.layanan-water-heater-text15 {
+  color: var(--dl-color-primary-700);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.layanan-water-heater-button3 {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  align-self: center;
+  text-align: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  border-width: 0px;
+  border-radius: 34px;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-color: var(--dl-color-primary-100);
+}
+.layanan-water-heater-about-us {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -506,21 +533,21 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: center;
 }
-.home-heading-container1 {
+.layanan-water-heater-heading-container1 {
   width: 35%;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text14 {
+.layanan-water-heater-text16 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-secondary-text {
+.layanan-water-heater-secondary-text {
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-cta-btn3 {
+.layanan-water-heater-cta-btn3 {
   color: var(--dl-color-gray-white);
   width: 80%;
   align-self: flex-start;
@@ -531,20 +558,20 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-primary-100);
 }
-.home-text-container {
+.layanan-water-heater-text-container {
   width: 45%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
-.home-text17 {
+.layanan-water-heater-text18 {
   color: var(--dl-color-gray-500);
 }
-.home-text18 {
+.layanan-water-heater-text19 {
   color: var(--dl-color-gray-500);
 }
-.home-cta-btn4 {
+.layanan-water-heater-cta-btn4 {
   color: var(--dl-color-gray-white);
   width: 80%;
   display: none;
@@ -556,7 +583,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-primary-100);
 }
-.home-section-separator1 {
+.layanan-water-heater-section-separator1 {
   width: 100%;
   height: 1px;
   display: flex;
@@ -564,7 +591,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-700);
 }
-.home-testimonials {
+.layanan-water-heater-testimonials {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -576,10 +603,10 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
 }
-.home-text19 {
+.layanan-water-heater-text20 {
   margin-bottom: var(--dl-space-space-fiveunits);
 }
-.home-cards-container1 {
+.layanan-water-heater-cards-container1 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -588,7 +615,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-testimonial-card {
+.layanan-water-heater-testimonial-card {
   width: 30%;
   display: flex;
   padding: var(--dl-space-space-fourunits);
@@ -602,7 +629,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-card-heading {
+.layanan-water-heater-card-heading {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -617,57 +644,57 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.home-name-and-position {
+.layanan-water-heater-name-and-position {
   width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-position {
+.layanan-water-heater-position {
   color: var(--dl-color-gray-700);
 }
-.home-stars-container {
+.layanan-water-heater-stars-container {
   width: 50%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   flex-direction: row;
 }
-.home-icon13 {
+.layanan-water-heater-icon10 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon15 {
+.layanan-water-heater-icon12 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon17 {
+.layanan-water-heater-icon14 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon19 {
+.layanan-water-heater-icon16 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon21 {
+.layanan-water-heater-icon18 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
 }
-.home-text20 {
+.layanan-water-heater-text21 {
   color: var(--dl-color-gray-500);
   text-align: left;
 }
-.home-testimonial-card1 {
+.layanan-water-heater-testimonial-card1 {
   width: 30%;
   display: flex;
   padding: var(--dl-space-space-fourunits);
@@ -681,7 +708,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-card-heading1 {
+.layanan-water-heater-card-heading1 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -696,57 +723,57 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.home-name-and-position1 {
+.layanan-water-heater-name-and-position1 {
   width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-position1 {
+.layanan-water-heater-position1 {
   color: var(--dl-color-gray-700);
 }
-.home-stars-container1 {
+.layanan-water-heater-stars-container1 {
   width: 50%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   flex-direction: row;
 }
-.home-icon23 {
+.layanan-water-heater-icon20 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon25 {
+.layanan-water-heater-icon22 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon27 {
+.layanan-water-heater-icon24 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon29 {
+.layanan-water-heater-icon26 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon31 {
+.layanan-water-heater-icon28 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
 }
-.home-text21 {
+.layanan-water-heater-text22 {
   color: var(--dl-color-gray-500);
   text-align: left;
 }
-.home-testimonial-card2 {
+.layanan-water-heater-testimonial-card2 {
   width: 30%;
   display: flex;
   padding: var(--dl-space-space-fourunits);
@@ -760,7 +787,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-card-heading2 {
+.layanan-water-heater-card-heading2 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -775,57 +802,57 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.home-name-and-position2 {
+.layanan-water-heater-name-and-position2 {
   width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-position2 {
+.layanan-water-heater-position2 {
   color: var(--dl-color-gray-700);
 }
-.home-stars-container2 {
+.layanan-water-heater-stars-container2 {
   width: 50%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   flex-direction: row;
 }
-.home-icon33 {
+.layanan-water-heater-icon30 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon35 {
+.layanan-water-heater-icon32 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon37 {
+.layanan-water-heater-icon34 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon39 {
+.layanan-water-heater-icon36 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-icon41 {
+.layanan-water-heater-icon38 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
 }
-.home-text22 {
+.layanan-water-heater-text23 {
   color: var(--dl-color-gray-500);
   text-align: left;
 }
-.home-contact {
+.layanan-water-heater-contact {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -836,7 +863,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: space-between;
 }
-.home-content-container {
+.layanan-water-heater-content-container {
   width: 50%;
   display: flex;
   padding: var(--dl-space-space-fiveunits);
@@ -850,103 +877,103 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.home-text23 {
+.layanan-water-heater-text24 {
   margin-top: var(--dl-space-space-fiveunits);
   margin-bottom: var(--dl-space-space-fiveunits);
 }
-.home-locations-container {
+.layanan-water-heater-locations-container {
   width: 100%;
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: row;
 }
-.home-location-1 {
+.layanan-water-heater-location-1 {
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-heading4 {
+.layanan-water-heater-heading4 {
   font-size: 24px;
   font-style: normal;
   font-family: Roboto;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.home-adress {
+.layanan-water-heater-adress {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: row;
 }
-.home-icon43 {
+.layanan-water-heater-icon40 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.home-email {
+.layanan-water-heater-email {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: row;
 }
-.home-icon45 {
+.layanan-water-heater-icon42 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.home-phone {
+.layanan-water-heater-phone {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: row;
 }
-.home-icon47 {
+.layanan-water-heater-icon44 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.home-link10 {
+.layanan-water-heater-link11 {
   text-decoration: none;
 }
-.home-social-links-container1 {
+.layanan-water-heater-social-links-container1 {
   display: flex;
   align-self: flex-start;
   margin-top: var(--dl-space-space-fiveunits);
   align-items: flex-start;
   flex-direction: row;
 }
-.home-link11 {
+.layanan-water-heater-link12 {
   text-decoration: none;
 }
-.home-image8 {
+.layanan-water-heater-image6 {
   width: 50%;
   object-fit: cover;
 }
 @media(max-width: 991px) {
-  .home-image {
+  .layanan-water-heater-image {
     width: 150px;
   }
-  .home-hero {
+  .layanan-water-heater-hero {
     flex-direction: column-reverse;
   }
-  .home-hero-text-container {
+  .layanan-water-heater-hero-text-container {
     width: 80%;
     margin-left: 0px;
   }
-  .home-link08 {
+  .layanan-water-heater-link08 {
     color: var(--dl-color-primary-100);
     text-decoration: underline;
   }
-  .home-cta-btn2 {
+  .layanan-water-heater-cta-btn2 {
     width: 40%;
   }
-  .home-image2 {
+  .layanan-water-heater-image2 {
     width: 80%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-text02 {
+  .layanan-water-heater-text02 {
     font-size: 48px;
     font-family: Roboto;
     font-weight: 700;
@@ -954,271 +981,245 @@
     text-transform: none;
     text-decoration: none;
   }
-  .home-link09 {
+  .layanan-water-heater-link09 {
     color: var(--dl-color-primary-100);
   }
-  .home-feature-card {
+  .layanan-water-heater-feature-card {
     align-self: center;
   }
-  .home-about-us {
+  .layanan-water-heater-about-us {
     flex-direction: column;
   }
-  .home-heading-container1 {
+  .layanan-water-heater-heading-container1 {
     width: 100%;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-text14 {
-    font-size: 48px;
-    font-family: Roboto;
-    font-weight: 700;
-    line-height: 1.22;
+  .layanan-water-heater-text16 {
     text-transform: none;
-    text-decoration: none;
   }
-  .home-text16 {
+  .layanan-water-heater-link10 {
     color: var(--dl-color-primary-100);
   }
-  .home-cta-btn3 {
+  .layanan-water-heater-cta-btn3 {
     width: 40%;
     display: none;
   }
-  .home-text-container {
+  .layanan-water-heater-text-container {
     width: 100%;
   }
-  .home-cta-btn4 {
+  .layanan-water-heater-cta-btn4 {
     width: 280px;
     display: block;
     margin-top: var(--dl-space-space-doubleunit);
   }
-  .home-locations-container {
+  .layanan-water-heater-locations-container {
     flex-wrap: wrap;
   }
-  .home-location-1 {
+  .layanan-water-heater-location-1 {
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-icon45 {
+  .layanan-water-heater-icon42 {
     margin-right: var(--dl-space-space-doubleunit);
   }
-  .home-link10 {
+  .layanan-water-heater-link11 {
     text-decoration: underline;
   }
-  .home-link11 {
+  .layanan-water-heater-link12 {
     color: var(--dl-color-gray-500);
   }
-  .home-image8 {
+  .layanan-water-heater-image6 {
     align-self: center;
   }
 }
 @media(max-width: 767px) {
-  .home-links-container {
+  .layanan-water-heater-links-container {
     display: none;
   }
-  .home-burger-menu {
+  .layanan-water-heater-burger-menu {
     display: flex;
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-tripleunit);
     background-color: var(--dl-color-gray-black);
   }
-  .home-icon {
+  .layanan-water-heater-icon {
     fill: var(--dl-color-gray-white);
   }
-  .home-heading {
+  .layanan-water-heater-heading {
     text-align: center;
   }
-  .home-link08 {
+  .layanan-water-heater-link08 {
     color: var(--dl-color-primary-100);
   }
-  .home-text01 {
+  .layanan-water-heater-text01 {
     text-align: center;
   }
-  .home-cta-btn2 {
+  .layanan-water-heater-cta-btn2 {
     width: auto;
     align-self: center;
   }
-  .home-heading-container {
+  .layanan-water-heater-heading-container {
     width: 100%;
   }
-  .home-cards-container {
+  .layanan-water-heater-cards-container {
     align-items: center;
     flex-direction: column;
   }
-  .home-feature-card {
+  .layanan-water-heater-feature-card {
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-feature-card1 {
+  .layanan-water-heater-feature-card1 {
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-feature-card2 {
+  .layanan-water-heater-feature-card2 {
     width: 70%;
   }
-  .home-card-content {
+  .layanan-water-heater-card-content {
     margin: 0px;
   }
-  .home-card-content1 {
+  .layanan-water-heater-card-content1 {
     margin: 0px;
   }
-  .home-card-content2 {
+  .layanan-water-heater-card-content2 {
     margin: 0px;
   }
-  .home-about-us {
+  .layanan-water-heater-card-content3 {
+    margin: 0px;
+  }
+  .layanan-water-heater-about-us {
     align-items: center;
   }
-  .home-heading-container1 {
+  .layanan-water-heater-heading-container1 {
     align-items: center;
   }
-  .home-text14 {
+  .layanan-water-heater-text16 {
     text-align: center;
   }
-  .home-secondary-text {
+  .layanan-water-heater-secondary-text {
     text-align: center;
   }
-  .home-text19 {
+  .layanan-water-heater-text20 {
     text-align: center;
   }
-  .home-cards-container1 {
+  .layanan-water-heater-cards-container1 {
     align-items: center;
     flex-direction: column;
   }
-  .home-testimonial-card {
+  .layanan-water-heater-testimonial-card {
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-stars-container {
+  .layanan-water-heater-stars-container {
     justify-content: flex-end;
   }
-  .home-testimonial-card1 {
+  .layanan-water-heater-testimonial-card1 {
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-stars-container1 {
+  .layanan-water-heater-stars-container1 {
     justify-content: flex-end;
   }
-  .home-testimonial-card2 {
+  .layanan-water-heater-testimonial-card2 {
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-stars-container2 {
+  .layanan-water-heater-stars-container2 {
     justify-content: flex-end;
   }
-  .home-contact {
+  .layanan-water-heater-contact {
     padding-right: var(--dl-space-space-tripleunit);
     flex-direction: column;
   }
-  .home-content-container {
+  .layanan-water-heater-content-container {
     width: 100%;
   }
-  .home-icon45 {
+  .layanan-water-heater-icon42 {
     margin-right: var(--dl-space-space-doubleunit);
   }
-  .home-image8 {
+  .layanan-water-heater-image6 {
     width: 100%;
   }
 }
 @media(max-width: 479px) {
-  .home-image {
+  .layanan-water-heater-image {
     width: 120px;
   }
-  .home-cta-btn {
+  .layanan-water-heater-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .home-burger-menu {
+  .layanan-water-heater-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
-  .home-cta-btn1 {
+  .layanan-water-heater-cta-btn1 {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .home-hero-text-container {
+  .layanan-water-heater-hero-text-container {
     width: 100%;
     margin-bottom: 10px;
   }
-  .home-image2 {
+  .layanan-water-heater-image2 {
     width: 100%;
   }
-  .home-feature-card {
+  .layanan-water-heater-feature-card {
     width: 100%;
   }
-  .home-icon10 {
-    width: 120px;
-    height: 92px;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-feature-card1 {
+  .layanan-water-heater-feature-card1 {
     width: 100%;
   }
-  .home-feature-card2 {
+  .layanan-water-heater-feature-card2 {
     width: 100%;
   }
-  .home-service-card {
+  .layanan-water-heater-service-card {
     width: 100%;
   }
-  .home-text08 {
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-image5 {
-    box-shadow: 5px 5px 10px 0px #d4d4d4;
-  }
-  .home-service-card1 {
+  .layanan-water-heater-service-card1 {
     width: 100%;
   }
-  .home-text10 {
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-image6 {
-    box-shadow: 5px 5px 10px 0px #d4d4d4;
-  }
-  .home-service-card2 {
+  .layanan-water-heater-service-card2 {
     width: 100%;
     margin-bottom: var(--dl-space-space-fourunits);
   }
-  .home-text12 {
-    margin-top: 0px;
-    margin-bottom: var(--dl-space-space-tripleunit);
+  .layanan-water-heater-service-card3 {
+    width: 100%;
   }
-  .home-image7 {
-    box-shadow: 5px 5px 10px 0px #d4d4d4;
-  }
-  .home-secondary-text {
+  .layanan-water-heater-secondary-text {
     text-align: center;
   }
-  .home-text19 {
+  .layanan-water-heater-text20 {
     text-align: center;
   }
-  .home-testimonial-card {
+  .layanan-water-heater-testimonial-card {
     width: 100%;
   }
-  .home-testimonial-card1 {
+  .layanan-water-heater-testimonial-card1 {
     width: 100%;
   }
-  .home-testimonial-card2 {
+  .layanan-water-heater-testimonial-card2 {
     width: 100%;
   }
-  .home-content-container {
+  .layanan-water-heater-content-container {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .home-text23 {
+  .layanan-water-heater-text24 {
     text-align: center;
   }
-  .home-locations-container {
+  .layanan-water-heater-locations-container {
     margin-bottom: 0px;
   }
-  .home-location-1 {
+  .layanan-water-heater-location-1 {
     margin-right: 158px;
   }
-  .home-heading4 {
+  .layanan-water-heater-heading4 {
     font-size: 24px;
   }
-  .home-social-links-container1 {
+  .layanan-water-heater-social-links-container1 {
     align-self: center;
-  }
-  .home-image8 {
-    display: none;
   }
 }
