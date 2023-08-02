@@ -132,38 +132,38 @@ const Home = (props) => {
         <div className="home-container2">
           <img
             alt="image"
-            src="/brand/modena-200h.png"
+            src="/brand/ariston-200h.webp"
             className="home-image03"
           />
           <img
             alt="image"
-            src="/brand/wasser-200h.webp"
+            src="/brand/modena-200h.png"
             className="home-image04"
+          />
+          <img
+            alt="image"
+            src="/brand/wasser-200h.webp"
+            className="home-image05"
           />
         </div>
         <div className="home-container3">
           <img
             alt="image"
             src="/brand/paloma-200h.webp"
-            className="home-image05"
-          />
-          <img
-            alt="image"
-            src="/brand/sanyo-200h.webp"
             className="home-image06"
           />
           <img
             alt="image"
-            src="/brand/shimizu-200h.webp"
+            src="/brand/sanyo-200h.webp"
             className="home-image07"
+          />
+          <img
+            alt="image"
+            src="/brand/shimizu-200h.webp"
+            className="home-image08"
           />
         </div>
         <div className="home-container4">
-          <img
-            alt="image"
-            src="/brand/ariston-200h.webp"
-            className="home-image08"
-          />
           <img
             alt="image"
             src="/brand/electrolux-200h.png"
