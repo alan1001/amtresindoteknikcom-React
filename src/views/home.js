@@ -20,13 +20,13 @@ const Home = (props) => {
             <a href="#features" className="home-link Anchor">
               Keunggulan
             </a>
-            <a href="#services" className="home-link1 Anchor">
+            <a href="#services" className="home-link01 Anchor">
               Layanan
             </a>
-            <a href="#about-us" className="home-link2 Anchor">
+            <a href="#about-us" className="home-link02 Anchor">
               Tentang
             </a>
-            <a href="#contact" className="home-link3 Anchor">
+            <a href="#contact" className="home-link03 Anchor">
               Kontak
             </a>
           </div>
@@ -49,16 +49,16 @@ const Home = (props) => {
             </div>
             <div className="home-mid">
               <div className="home-links-container1">
-                <a href="#features" className="home-link4 Anchor">
+                <a href="#features" className="home-link04 Anchor">
                   features
                 </a>
-                <a href="#services" className="home-link5 Anchor">
+                <a href="#services" className="home-link05 Anchor">
                   services
                 </a>
-                <a href="#about-us" className="home-link6 Anchor">
+                <a href="#about-us" className="home-link06 Anchor">
                   About Us
                 </a>
-                <a href="#contact" className="home-link7 Anchor">
+                <a href="#contact" className="home-link07 Anchor">
                   contact
                 </a>
               </div>
@@ -94,10 +94,17 @@ const Home = (props) => {
       <div className="home-hero">
         <div className="home-hero-text-container">
           <h1 className="home-heading">
-            <span className="home-text">Amtresindo</span>
+            <a
+              href="https://amtresindoteknik.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link08"
+            >
+              Amtresindo
+            </a>
             <span> Solusi Perbaikan Profesional!</span>
           </h1>
-          <span className="home-text02 Section-Text">
+          <span className="home-text01 Section-Text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi.
             Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
@@ -117,7 +124,7 @@ const Home = (props) => {
       <div className="home-section-separator"></div>
       <div id="features" className="home-features">
         <div className="home-heading-container">
-          <h2 className="home-text03">
+          <h2 className="home-text02">
             <span className="Section-Heading">
               Keunggulan
               <span
@@ -126,9 +133,16 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text05">Amtresindo</span>
+            <a
+              href="https://amtresindoteknik.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link09"
+            >
+              Amtresindo
+            </a>
           </h2>
-          <span className="home-text06 Section-Text">
+          <span className="home-text04 Section-Text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero. Sed cursus ante dapibus diam.
           </span>
@@ -141,7 +155,7 @@ const Home = (props) => {
               className="home-image3"
             />
             <span className="home-heading1 Card-Heading">Harga Kompetitif</span>
-            <span className="home-text07 Card-Text">
+            <span className="home-text05 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -156,7 +170,7 @@ const Home = (props) => {
             <span className="home-heading2 Card-Heading">
               Teknisi Profesional
             </span>
-            <span className="home-text08 Card-Text">
+            <span className="home-text06 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -169,7 +183,7 @@ const Home = (props) => {
               className="home-image5"
             />
             <span className="home-heading3 Card-Heading">Garansi Terjamin</span>
-            <span className="home-text09 Card-Text">
+            <span className="home-text07 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -180,8 +194,8 @@ const Home = (props) => {
       <div id="services" className="home-services">
         <div className="home-service-card">
           <div className="home-card-content">
-            <h3 className="home-text10 BigCard-Heading">Water Heater</h3>
-            <span className="home-text11 Card-Text">
+            <h3 className="home-text08 BigCard-Heading">Water Heater</h3>
+            <span className="home-text09 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -195,8 +209,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card1">
           <div className="home-card-content1">
-            <h3 className="home-text12 BigCard-Heading">Pompa Air</h3>
-            <span className="home-text13 Card-Text">
+            <h3 className="home-text10 BigCard-Heading">Pompa Air</h3>
+            <span className="home-text11 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -210,8 +224,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card2">
           <div className="home-card-content2">
-            <h3 className="home-text14 BigCard-Heading">Kompor Tanam</h3>
-            <span className="home-text15 Card-Text">
+            <h3 className="home-text12 BigCard-Heading">Kompor Tanam</h3>
+            <span className="home-text13 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -225,8 +239,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card3">
           <div className="home-card-content3">
-            <h3 className="home-text16 BigCard-Heading">Kompor Oven</h3>
-            <span className="home-text17 Card-Text">
+            <h3 className="home-text14 BigCard-Heading">Kompor Oven</h3>
+            <span className="home-text15 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -241,20 +255,33 @@ const Home = (props) => {
       </div>
       <div id="about-us" className="home-about-us">
         <div className="home-heading-container1">
-          <h2 className="home-text18 Section-Heading">
-            Tentang Amtresindoteknik
+          <h2 className="home-text16">
+            <span className="Section-Heading">
+              Tentang
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <a
+              href="https://amtresindoteknik.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link10"
+            >
+              Amtresindo
+            </a>
           </h2>
           <span className="home-secondary-text Section-Text">
             {' '}
             Lorem upsum dolor sit amet, consectetur adipiscing elit sed do
             eiusmod.
           </span>
-          <button className="home-cta-btn3 button Anchor">
-            START BUILDING
-          </button>
+          <button className="home-cta-btn3 button Anchor">Whatapps</button>
         </div>
         <div className="home-text-container">
-          <span className="home-text19 Section-Text">
+          <span className="home-text18 Section-Text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -263,7 +290,7 @@ const Home = (props) => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </span>
-          <span className="home-text20 Section-Text">
+          <span className="home-text19 Section-Text">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -284,7 +311,7 @@ const Home = (props) => {
       </div>
       <div className="home-section-separator1"></div>
       <div className="home-testimonials">
-        <h2 className="home-text21 Section-Heading">Testimoni Pelanggan</h2>
+        <h2 className="home-text20 Section-Heading">Testimoni Pelanggan</h2>
         <div className="home-cards-container1">
           <div className="home-testimonial-card">
             <div className="home-card-heading">
@@ -325,7 +352,7 @@ const Home = (props) => {
                 </svg>
               </div>
             </div>
-            <span className="home-text22 Card-Text">
+            <span className="home-text21 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -370,7 +397,7 @@ const Home = (props) => {
                 </svg>
               </div>
             </div>
-            <span className="home-text23 Card-Text">
+            <span className="home-text22 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -415,7 +442,7 @@ const Home = (props) => {
                 </svg>
               </div>
             </div>
-            <span className="home-text24 Card-Text">
+            <span className="home-text23 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
               nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -425,7 +452,7 @@ const Home = (props) => {
       </div>
       <div id="contact" className="home-contact">
         <div className="home-content-container">
-          <h2 className="home-text25 Section-Heading">Area Amtresindo</h2>
+          <h2 className="home-text24 Section-Heading">Area Amtresindo</h2>
           <div className="home-locations-container">
             <div className="home-location-1">
               <span className="home-heading4">Surabaya &amp; Sidoarjo</span>
@@ -453,20 +480,21 @@ const Home = (props) => {
                 >
                   <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
                 </svg>
-                <span>082131659571</span>
+                <a href="tel:+6282131659571" className="home-link11">
+                  082131659571
+                </a>
               </div>
             </div>
           </div>
           <div className="home-social-links-container1">
-            <svg viewBox="0 0 950.8571428571428 1024" className="home-icon46">
-              <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-            </svg>
-            <svg viewBox="0 0 877.7142857142857 1024" className="home-icon48">
-              <path d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"></path>
-            </svg>
-            <svg viewBox="0 0 877.7142857142857 1024" className="home-icon50">
-              <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-            </svg>
+            <a
+              href="https://amtresindoteknik.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link12"
+            >
+              amtresindoteknik.com
+            </a>
           </div>
         </div>
         <img alt="image" src="/logo-1-1500w.jpg" className="home-image6" />
