@@ -41,9 +41,15 @@ const Home = (props) => {
           <div className="home-cta-container">
             <a
               href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
-              className="home-cta-btn Anchor button"
+              className="home-cta-btn button Anchor"
             >
-              Whatsapp
+              WA
+            </a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
+              className="home-cta-btn1 button Anchor"
+            >
+              Telfon
             </a>
             <div data-role="BurgerMenu" className="home-burger-menu">
               <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -79,7 +85,7 @@ const Home = (props) => {
                   contact
                 </a>
               </div>
-              <button className="home-cta-btn1 Anchor button">
+              <button className="home-cta-btn2 Anchor button">
                 sTART BUILDING
               </button>
             </div>
@@ -131,7 +137,7 @@ const Home = (props) => {
           </span>
           <a
             href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
-            className="home-cta-btn2 Anchor button"
+            className="home-cta-btn3 Anchor button"
           >
             Whatsapp
           </a>
@@ -366,7 +372,7 @@ const Home = (props) => {
             {' '}
             Percayakan Alat Anda Kepada Kami
           </span>
-          <button className="home-cta-btn3 button Anchor">Whatapps</button>
+          <button className="home-cta-btn4 button Anchor">Whatapps</button>
         </div>
         <div className="home-text-container">
           <span className="home-text20">
@@ -446,7 +452,7 @@ const Home = (props) => {
         </div>
         <a
           href="https://api.whatsapp.com/send/?phone=6282131659571&amp;text=Halo+Amtresindo+Teknik%2C+Saya+ingin+berkonsultasi&amp;type=phone_number&amp;app_absent=0"
-          className="home-cta-btn4 Anchor button"
+          className="home-cta-btn5 Anchor button"
         >
           Whatsapp
         </a>
