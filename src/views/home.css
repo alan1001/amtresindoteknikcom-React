@@ -956,6 +956,9 @@
   object-fit: cover;
 }
 @media(max-width: 991px) {
+  .home-image {
+    width: 150px;
+  }
   .home-hero {
     flex-direction: column-reverse;
   }

@@ -14,11 +14,7 @@ const Home = (props) => {
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
           <div className="home-logo">
-            <img
-              alt="image"
-              src="/logo-1-128-200h.jpg"
-              className="home-image"
-            />
+            <img alt="image" src="/logo-top-200h.jpg" className="home-image" />
           </div>
           <div className="home-links-container">
             <a href="#features" className="home-link Anchor">
